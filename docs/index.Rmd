@@ -11,17 +11,17 @@ output:
     self_contained: true
 #knit: pagedown::chrome_print      
 ---
-```{r metathis, echo=FALSE}
+```{r metathis, echo=FALSE, message=FALSE, warning=FALSE}
 library(metathis)
 meta() %>%
-  meta_name("github-repo" = "beatrizmilz/resume") %>% 
+  meta_name("github-repo" = "leofn/resume") %>% 
   meta_social(
     title = "Leonardo F. Nascimento CV",
     description = paste(
       "CV made with the packages RMarkdown, pagedown, datadrivencv."
     ),
-    url = "https://beatrizmilz.github.io/resume/index.html",
-    image = "https://beatrizmilz.github.io/resume/img/share-card.png",
+    url = "https://leofn.github.io/resume/index.html",
+    image = "https://leofn.github.io/resume/img/share-card.png",
     image_alt = paste(
       "Leonardo F. Nascimento CV"
     ),
@@ -81,27 +81,22 @@ Aside
 
 
 <center>
-![Beatriz Milz](https://avatars.githubusercontent.com/u/42153618?v=4){width=80% style='border-radius: 50%;'}
+![Leonardo F. Nascimento](https://avatars.githubusercontent.com/u/10790532?v=4){width=80% style='border-radius: 50%;'}
 </center>
 
-
-
+<center>
 ### CONTACT
+</center>
+
 <center>
 
 <a href='https://leofn.com/' target='_blank'><i class="fa fa-home"></i></a>
- <a href='https://leofn.com/' target='_blank'><i class="fa fa-github"></i></a> <a href='mailto:leofn3@gmail.com'><i class="fa fa-envelope"></i></a> <a href='https://twitter.com/leofn3' target='_blank'><i class="fa fa-twitter"></i></a>  <a href='https://github.com/leofn' target='_blank'><i class="fa fa-github"></i></a>  <a href='https://orcid.org/0000-0003-2929-1115' target='_blank'><i class="fab fa-orcid"></i></a> <a href='http://lattes.cnpq.br/7141811368487014'  target='_blank'><i class="ai ai-lattes"></i></a>
+<a href='https://github.com/leofn' target='_blank'><i class="fa fa-github"></i></a> <a href='mailto:leofn3@gmail.com'><i class="fa fa-envelope"></i></a> <a href='https://twitter.com/leofn3' target='_blank'><i class="fa fa-twitter"></i></a>  <a href='https://github.com/leofn' target='_blank'><i class="fa fa-github"></i></a>  <a href='https://orcid.org/0000-0003-2929-1115' target='_blank'><i class="fab fa-orcid"></i></a> <a href='http://lattes.cnpq.br/7141811368487014'  target='_blank'><i class="ai ai-lattes"></i></a>
 </center>
 
 <br>
 
-Chemist, Psychologist and Computational Social Scientist and Programmer. I investigate disinformation, hate speech and scientific controversies in social media through NLP techniques and network analysis.
-
-### TEACHING
-
-<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
-
-<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
+Chemist, Psychologist and Computational Social Scientist. I investigate disinformation, hate speech and scientific controversies in social media through NLP techniques and network analysis.
 
 <br>
 
@@ -111,7 +106,9 @@ Chemist, Psychologist and Computational Social Scientist and Programmer. I inves
 
 **English:** Proficient
 
-**Spanish:** Intermediate
+**French:** Proficient
+
+**Spanish:** Proficient
 
 <br>
 
@@ -129,7 +126,7 @@ Last updated on `r Sys.Date()`. The most recent version of this resume is [avail
 Main
 ================================================================================
 
-Beatriz Milz {#title}
+Leonardo F. Nascimento {#title}
 --------------------------------------------------------------------------------
 
 
@@ -154,39 +151,15 @@ CV %<>% print_section('oral_communications')
 
 ::: aside
 
-Selected activities:
-
-### GRANTS
-
-<i class="far fa-star"></i> [rstudio::conf()  2022](https://www.rstudio.com/conference/) - Diversity Scholarship.
-
-<i class="far fa-star"></i> [FAPESP](https://fapesp.br/). Doctorate Scholarship - 2019-2021.
-
-<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
-
-<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
-
 <br>
 
 
+### BOOKS
 
-### SOFTWARE
+<i class="fas fa-box-open"></i> [Novas fronteiras metodológicas nas ciências sociais](https://repositorio.ufba.br/bitstream/ri/32746/5/SociologiaDigitalPDF.pdf): Book in Portuguese. 
 
-<i class="fas fa-box-open"></i> [Package {dados} - Available on CRAN](https://cienciadedatos.github.io/dados/) - Co-Author. 
 
-<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
-
-<br>
-
-### SOFTWARE REVIEW
-
-<i class="fas fa-box-open"></i> [R OpenSci](https://ropensci.org/): [reviews available here](https://github.com/beatrizmilz/ropensci_reviews#ropensci-reviews). 
-
-<br>
-
-### BOOK REVIEW
-
-<i class="fas fa-box-open"></i> [Ecological Analysis in R](https://analises-ecologicas.com/): Book in Portuguese. Chapters 4 and 5 - Introduction to R and Tidyverse. 
+<i class="fas fa-box-open"></i> [Sociologia Digital: uma breve  introdução](https://repositorio.ufba.br/bitstream/ri/32746/5/SociologiaDigitalPDF.pdf): Book in Portuguese. 
 
 
 
@@ -199,9 +172,9 @@ Selected activities:
 <i class="fa fa-area-chart" aria-hidden="true"></i>
  `tidyverse`
  
-<i class="fab fa-markdown"></i> `RMarkdown / Quarto` 
+<i class="fab fa-markdown"></i> `RMarkdown` 
 
-<i class="fas fa-code-branch"></i> `Git`
+<i class="fab fa-code-branch"></i> `Git`
 
 <i class="fab fa-github"></i> `GitHub`
 
