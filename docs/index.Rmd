@@ -79,13 +79,8 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-
 <center>
 ![Leonardo F. Nascimento](https://avatars.githubusercontent.com/u/10790532?v=4){width=80% style='border-radius: 50%;'}
-</center>
-
-<center>
-### CONTACT
 </center>
 
 <center>
@@ -100,6 +95,7 @@ Chemist, Psychologist and Computational Social Scientist. I investigate disinfor
 
 <br>
 
+
 ### Languages
 
 **Portuguese:** Native
@@ -109,59 +105,6 @@ Chemist, Psychologist and Computational Social Scientist. I investigate disinfor
 **French:** Proficient
 
 **Spanish:** Proficient
-
-<br>
-
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
-
-Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
-
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf). 
-
-
-Main
-================================================================================
-
-Leonardo F. Nascimento {#title}
---------------------------------------------------------------------------------
-
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('teaching_experience')
-```
-
-
-
-Selected Oral Communications {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('oral_communications')
-```
-
-
-\pagebreak
-
-::: aside
-
-<br>
-
-
-### BOOKS
-
-<i class="fas fa-box-open"></i> [Novas fronteiras metodológicas nas ciências sociais](https://repositorio.ufba.br/bitstream/ri/32746/5/SociologiaDigitalPDF.pdf): Book in Portuguese. 
-
-
-<i class="fas fa-box-open"></i> [Sociologia Digital: uma breve  introdução](https://repositorio.ufba.br/bitstream/ri/32746/5/SociologiaDigitalPDF.pdf): Book in Portuguese. 
-
-
 
 <br>
 
@@ -185,21 +128,40 @@ CV %<>% print_section('oral_communications')
 <i class="fab fa-css3-alt"></i> `CSS`
 
 
-:::
+Main
+================================================================================
 
+Leonardo F. Nascimento {#title}
+--------------------------------------------------------------------------------
 
-
-
-
-Selected Workshops Taught {data-icon=book} 
+Working Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('workshops_taught')
+CV %<>% print_section('working_experience')
 ```
 
 
+Publications {data-icon=book}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('publications_scientific')
+```
+
+
+::: aside
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+
+Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
+
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf).
+
+
+:::
 
 
 Education {data-icon=graduation-cap data-concise=true}
