@@ -156,9 +156,9 @@ Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
-Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/beatrizmilz/resume). 
+Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/leofn/resume). 
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://beatrizmilz.github.io/resume/index.pdf).
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://leofn.github.io/resume/index.pdf).
 
 
 :::
