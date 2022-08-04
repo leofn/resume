@@ -91,7 +91,7 @@ Aside
 
 <br>
 
-Chemist, Psychologist and Computational Social Scientist. I investigate disinformation, hate speech and scientific controversies in social media through NLP techniques and network analysis.
+Computational Social Scientist and Psychologist. I investigate disinformation, hate speech and scientific controversies in social media through NLP techniques and network analysis.
 
 <br>
 
