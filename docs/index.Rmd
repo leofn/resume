@@ -117,7 +117,7 @@ Chemist, Psychologist and Computational Social Scientist. I investigate disinfor
  
 <i class="fab fa-markdown"></i> `RMarkdown` 
 
-<i class="fab fa-code-branch"></i> `Git`
+<i class="fas fa-code-branch"></i> `Git`
 
 <i class="fab fa-github"></i> `GitHub`
 
