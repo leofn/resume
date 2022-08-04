@@ -142,11 +142,19 @@ CV %<>% print_section('working_experience')
 ```
 
 
-Publications {data-icon=book}
+Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('publications_scientific')
+```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('education')
 ```
 
 
@@ -158,21 +166,10 @@ This resume was made with the R package [**pagedown**](https://github.com/rstudi
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/leofn/resume). 
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://leofn.github.io/resume/index.pdf).
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://leofn.github.io/resume/).
 
 
 :::
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('education')
-```
-
-
-
 
 
 
